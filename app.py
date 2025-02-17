@@ -96,6 +96,7 @@ def update_graph_region(region):
 app.layout = html.Div(
     children=[
         html.H1(
+            id="graph-title",
             children="Pink Morsel Sales",
             style={
                 "textAlign": "center",
